@@ -63,6 +63,4 @@ jobs:
       - run: echo ${{ steps.issue.outputs.issue }}   
             
 
-      - name: Print Output
-        id: output
-        run: echo "${{ steps.test-action.outputs.time }}"
+  
